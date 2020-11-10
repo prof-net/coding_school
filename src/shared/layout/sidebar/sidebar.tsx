@@ -28,7 +28,7 @@ const Sidebar = () => {
                     </div>
 
                     <Menu mode={'inline'} className={'sch-sidebar-menu'} style={{ marginTop: '20px'}}>
-                        <Menu.Item key="1">
+                        <Menu.Item key="1" className={'sch-sidebar-menu-item-2'}>
                             <div className={'sch-sidebar-menu-item'}>
                                 <Icon className={'sch-sidebar-menu-item-icon'} component={IconTachometerAltSolid} />
                                 <span className={'sch-sidebar-menu-item-span'} >Главная</span>
