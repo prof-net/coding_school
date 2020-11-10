@@ -1,10 +1,11 @@
 import React from 'react';
 import {Layout} from "antd";
 import "./content.less";
+import DashBoard from "../../../modules/main/modules/dashboard/dashboard";
 
 const Content = (props:any) => (
     <Layout.Content className={'rr-app-content'}>
-        Content
+        <DashBoard />
     </Layout.Content>
 );
 

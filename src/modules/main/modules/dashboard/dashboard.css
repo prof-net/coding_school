@@ -1,0 +1,18 @@
+.sch-dashboard-playlist {
+    cursor: pointer;
+
+}
+
+.sch-dashboard-playlist1, .sch-dashboard-playlist2 {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+.sch-dashboard-playlist1:hover {
+    background-color:  #F8F8FF;
+}
+
+.sch-dashboard-playlist2:hover {
+    background-color:  #F8F8FF;
+}

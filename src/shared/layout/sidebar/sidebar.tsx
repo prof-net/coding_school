@@ -34,18 +34,18 @@ const Sidebar = () => {
                                 <span className={'sch-sidebar-menu-item-span'} >Главная</span>
                             </div>
                         </Menu.Item>
-                        <Menu.Item key="2">
-                            <div className={'sch-sidebar-menu-item'}>
-                                <Icon className={'sch-sidebar-menu-item-icon'} component={IconSitemap} />
-                                <span className={'sch-sidebar-menu-item-span'}>Все уроки</span>
-                            </div>
-                        </Menu.Item>
-                        <Menu.Item key="3">
-                            <div className={'sch-sidebar-menu-item'}>
-                                <Icon className={'sch-sidebar-menu-item-icon'} component={IconBriefcase} />
-                                <span className={'sch-sidebar-menu-item-span'}>Плэйлисты</span>
-                            </div>
-                        </Menu.Item>
+                        {/*<Menu.Item key="2">*/}
+                        {/*    <div className={'sch-sidebar-menu-item'}>*/}
+                        {/*        <Icon className={'sch-sidebar-menu-item-icon'} component={IconSitemap} />*/}
+                        {/*        <span className={'sch-sidebar-menu-item-span'}>Все уроки</span>*/}
+                        {/*    </div>*/}
+                        {/*</Menu.Item>*/}
+                        {/*<Menu.Item key="3">*/}
+                        {/*    <div className={'sch-sidebar-menu-item'}>*/}
+                        {/*        <Icon className={'sch-sidebar-menu-item-icon'} component={IconBriefcase} />*/}
+                        {/*        <span className={'sch-sidebar-menu-item-span'}>Плэйлисты</span>*/}
+                        {/*    </div>*/}
+                        {/*</Menu.Item>*/}
                         <Menu.Item key="4">
                             <div className={'sch-sidebar-menu-item'}>
                                 <Icon className={'sch-sidebar-menu-item-icon'} component={IconBullhorn} />
