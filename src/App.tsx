@@ -1,10 +1,11 @@
 import React from 'react';
-
+import Main from "./modules/main/main";
 
 function App() {
-  return (
-    <div className="App">
-        test
+
+    return (
+    <div>
+        <Main />
     </div>
   );
 }

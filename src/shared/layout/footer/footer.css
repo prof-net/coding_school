@@ -1,0 +1,8 @@
+.rr-app-footer {
+  padding: 24px;
+  background: #fff;
+  display: flex;
+  position: relative;
+  cursor: default;
+  color: #6f727d;
+}
