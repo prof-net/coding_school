@@ -1,13 +1,10 @@
 import React from 'react';
 import './sidebar.css';
-import {Avatar, Badge, Button, Layout, Menu} from 'antd';
+import {Avatar, Layout, Menu} from 'antd';
 import { UserOutlined } from '@ant-design/icons';
 import Icon from '@ant-design/icons';
 import {
     IconBell,
-    IconBriefcase,
-    IconBullhorn, IconCalendar, IconCogSolid,
-    IconSitemap,
     IconTachometerAltSolid
 } from "../../../components/icons";
 
@@ -46,38 +43,38 @@ const Sidebar = () => {
                         {/*        <span className={'sch-sidebar-menu-item-span'}>Плэйлисты</span>*/}
                         {/*    </div>*/}
                         {/*</Menu.Item>*/}
-                        <Menu.Item key="4">
-                            <div className={'sch-sidebar-menu-item'}>
-                                <Icon className={'sch-sidebar-menu-item-icon'} component={IconBullhorn} />
-                                <span className={'sch-sidebar-menu-item-span'}>Советы</span>
-                            </div>
-                        </Menu.Item>
-                        <Menu.Item key="5">
-                            <div className={'sch-sidebar-menu-item'}>
-                                <Icon className={'sch-sidebar-menu-item-icon'} component={IconCalendar} />
-                                <span className={'sch-sidebar-menu-item-span'}>Новости</span>
-                            </div>
-                        </Menu.Item>
+                        {/*<Menu.Item key="4">*/}
+                        {/*    <div className={'sch-sidebar-menu-item'}>*/}
+                        {/*        <Icon className={'sch-sidebar-menu-item-icon'} component={IconBullhorn} />*/}
+                        {/*        <span className={'sch-sidebar-menu-item-span'}>Советы</span>*/}
+                        {/*    </div>*/}
+                        {/*</Menu.Item>*/}
+                        {/*<Menu.Item key="5">*/}
+                        {/*    <div className={'sch-sidebar-menu-item'}>*/}
+                        {/*        <Icon className={'sch-sidebar-menu-item-icon'} component={IconCalendar} />*/}
+                        {/*        <span className={'sch-sidebar-menu-item-span'}>Новости</span>*/}
+                        {/*    </div>*/}
+                        {/*</Menu.Item>*/}
                     </Menu>
 
                 </div>
 
 
                 <div style={{flexGrow: 0}}>
-                    <Menu mode={'inline'} inlineIndent={18} className={'sch-sidebar-menu'}>
-                        <Menu.Item key="4">
-                            <div className={'sch-sidebar-menu-item'}>
-                                <Icon className={'sch-sidebar-menu-item-icon'}  component={IconCogSolid} />
-                                <span className={'sch-sidebar-menu-item-span'}>Настройки</span>
-                            </div>
-                        </Menu.Item>
-                        <Menu.Item key="5">
-                            <div className={'sch-sidebar-menu-item'}>
-                                <Icon className={'sch-sidebar-menu-item-icon'}  component={IconBullhorn} />
-                                <span className={'sch-sidebar-menu-item-span'}>Помощь</span>
-                            </div>
-                        </Menu.Item>
-                    </Menu>
+                    {/*<Menu mode={'inline'} inlineIndent={18} className={'sch-sidebar-menu'}>*/}
+                    {/*    <Menu.Item key="4">*/}
+                    {/*        <div className={'sch-sidebar-menu-item'}>*/}
+                    {/*            <Icon className={'sch-sidebar-menu-item-icon'}  component={IconCogSolid} />*/}
+                    {/*            <span className={'sch-sidebar-menu-item-span'}>Настройки</span>*/}
+                    {/*        </div>*/}
+                    {/*    </Menu.Item>*/}
+                    {/*    <Menu.Item key="5">*/}
+                    {/*        <div className={'sch-sidebar-menu-item'}>*/}
+                    {/*            <Icon className={'sch-sidebar-menu-item-icon'}  component={IconBullhorn} />*/}
+                    {/*            <span className={'sch-sidebar-menu-item-span'}>Помощь</span>*/}
+                    {/*        </div>*/}
+                    {/*    </Menu.Item>*/}
+                    {/*</Menu>*/}
 
                         <div className={'sch-app-menu-profile'} style={{display: 'flex', alignItems: 'center'}}>
                             <div className={'sch-app-menu-profile-avatar'}>

@@ -13,9 +13,7 @@ function Main() {
             <Sidebar />
             <Layout style={{ marginLeft: 240, minHeight: '100vh' }}>
                 <Header />
-                <Content>
-                    111
-                </Content>
+                <Content />
                 <Footer />
             </Layout>
         </Layout>
