@@ -5,7 +5,7 @@ import "./footer.css";
 
 
 // TODO Ссылки заменить на нормальные, когда будут
-const Footer = (props:any) => (
+const Footer = () => (
     <Layout.Footer className={'rr-app-footer'}>
 
             Footer

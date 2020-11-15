@@ -1,7 +1,12 @@
 import React from 'react';
 import YouTube, {Options} from "react-youtube";
 
-const Youtube = () => {
+interface IProps {
+    youtubeId: string
+}
+
+
+const Youtube = (props:IProps) => {
 
 
     const _onReady = (event:any)  => {
@@ -18,7 +23,7 @@ const Youtube = () => {
     }
 
     return <>
-        <YouTube videoId="Abk6CF9C1Xk" opts={opts} onReady={_onReady} />
+        <YouTube videoId={props.youtubeId} opts={opts} onReady={_onReady} />
     </>
 }
 
