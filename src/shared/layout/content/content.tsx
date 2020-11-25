@@ -9,7 +9,7 @@ const Content = () => (
     <Layout.Content className={'rr-app-content'}>
 
         <Route exact path='/' component={()=><DashBoard />}/>
-        <Route exact path='/admin' component={()=><Admin />}/>
+        <Route path='/admin' component={()=><Admin />}/>
 
 
     </Layout.Content>

@@ -1,0 +1,38 @@
+.sch-admin {
+    background-color: #e8e9f2;
+    display: flex;
+
+}
+
+.sch-admin-menu {
+    background-color: #f8f9fa;
+    min-height: calc(100vh - 140px);
+    min-width: 300px;
+    max-width: 370px;
+    width: 25%;
+    user-select: none;
+}
+
+.sch-admin-menu  .ant-menu  {
+    background-color: #f8f9fa;
+    color: #575962;
+    font-weight: bold;
+    padding: 15px;
+}
+.sch-admin-menu .ant-menu-inline .ant-menu-selected::after,
+.sch-admin-menu .ant-menu-inline .ant-menu-item-selected::after {
+    display: none;
+}
+
+
+.sch-admin-menu .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #f8f9fa;
+    color: #343f9a;
+}
+
+.sch-admin-menu .ant-menu-item:hover,
+.sch-admin-menu .ant-menu-item-active,
+.sch-admin-menu .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.sch-admin-menu .ant-menu-submenu-active, .ant-menu-submenu-title:hover {
+    color: #575962;
+}

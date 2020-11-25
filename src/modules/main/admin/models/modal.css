@@ -1,0 +1,6 @@
+.sch-admin-modal {
+    margin-left: 20px;
+    background-color: #fff;
+    min-height: calc(100vh - 140px);
+    width: 100vh;
+}
