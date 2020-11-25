@@ -13,12 +13,21 @@
     fontSize: 14px;
 }
 
+.sch-sidebar-menu-item {
+    color: #fff;
+}
+
 .sch-sidebar .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
     border-left: 7px solid #34BFA3;
     background-color: #525993;
     color: #fff;
     width: 240px;
 }
+
+.sch-sidebar .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected .sch-sidebar-menu-item-icon {
+
+}
+
 
 .sch-sidebar .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected::after {
     display: none;
@@ -29,7 +38,6 @@
     color: #fff;
     width: 240px;
 }
-
 
 
 .sch-sidebar .sch-sidebar-menu .sch-sidebar-menu-item {
@@ -44,9 +52,6 @@
 .sch-sidebar .sch-sidebar-menu .sch-sidebar-menu-item .sch-sidebar-menu-item-span {
     font-size: 18px;
 }
-
-
-
 
 .sch-menu-logo-container {
     height: 70px;

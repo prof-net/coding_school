@@ -30,6 +30,8 @@ const PlayList = () => {
 
 
     useEffect(() => {
+
+
         axios.get(`http://127.0.0.1:8000/api/v1/lessons/${currentPlaylist}/`).then((res) => {
             setLessonsList(res.data)
         })
@@ -37,6 +39,8 @@ const PlayList = () => {
 
 
     const onInfoVideo = (id:any) => {
+
+
         if (id) {
             axios.get(`http://127.0.0.1:8000/api/v1/lesson/${id}/`).then((res) => {
                 dispatch(setLesson(res.data))
@@ -65,6 +69,8 @@ const PlayList = () => {
             </div>
         </Panel>)
     })
+
+
 
     return (
         playlistItem ?

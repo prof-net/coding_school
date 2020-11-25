@@ -4,9 +4,10 @@ import {Avatar, Layout, Menu} from 'antd';
 import { UserOutlined } from '@ant-design/icons';
 import Icon from '@ant-design/icons';
 import {
-    IconBell,
+    IconBell, IconBullhorn, IconCogSolid,
     IconTachometerAltSolid
 } from "../../../components/icons";
+import {Link} from "react-router-dom";
 
 const Sidebar = () => {
     return (
@@ -25,12 +26,27 @@ const Sidebar = () => {
                     </div>
 
                     <Menu mode={'inline'} className={'sch-sidebar-menu'} style={{ marginTop: '20px'}}>
-                        <Menu.Item key="1" className={'sch-sidebar-menu-item-2'}>
-                            <div className={'sch-sidebar-menu-item'}>
-                                <Icon className={'sch-sidebar-menu-item-icon'} component={IconTachometerAltSolid} />
-                                <span className={'sch-sidebar-menu-item-span'} >Главная</span>
-                            </div>
-                        </Menu.Item>
+
+
+                            <Menu.Item key="1">
+                                <Link to={`/`}>
+                                    <div className={'sch-sidebar-menu-item'}>
+                                        <Icon className={'sch-sidebar-menu-item-icon'} component={IconTachometerAltSolid} />
+                                        <span className={'sch-sidebar-menu-item-span'} >Главная</span>
+                                    </div>
+                                </Link>
+                            </Menu.Item>
+
+
+                            <Menu.Item key="2">
+                                <Link to={`/admin`}>
+                                    <div className={'sch-sidebar-menu-item'}>
+                                        <Icon className={'sch-sidebar-menu-item-icon'}  component={IconCogSolid} />
+                                        <span className={'sch-sidebar-menu-item-span'}>Админка</span>
+                                    </div>
+                                </Link>
+                            </Menu.Item>
+
                         {/*<Menu.Item key="2">*/}
                         {/*    <div className={'sch-sidebar-menu-item'}>*/}
                         {/*        <Icon className={'sch-sidebar-menu-item-icon'} component={IconSitemap} />*/}
